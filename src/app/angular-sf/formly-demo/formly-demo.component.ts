@@ -24,97 +24,9 @@ export class FormlyDemoComponent implements OnInit {
     phoneNumbers: [{ contactTypeId: 1, number: '' }]
   };
 
-  fields: FormlyFieldConfig[] = [
-    {
-      key: 'firstname',
-      type: 'input',
-      templateOptions: {
-        label: 'Firstname',
-        required: true
-      }
-    },
-    {
-      key: 'age',
-      type: 'input',
-      templateOptions: {
-        label: 'Age',
-        type: 'number',
-        min: 18
-      },
-      validation: {
-        messages: {
-          min: 'Sorry, you have to be of legal age.'
-        }
-      }
-    },
-    {
-      key: 'nationId',
-      type: 'select',
-      templateOptions: {
-        label: 'Nation',
-        options: this.cityService.getNations()
-      }
-    },
-    {
-      key: 'cityId',
-      type: 'select',
-      templateOptions: {
-        label: 'City',
-        options: this.cityService.getCities()
-      },
-      expressionProperties: {
-        'templateOptions.disabled': model => !model.nationId
-      },
-      hooks: {
-        onInit: (field: FormlyFieldConfig) => {
-          field.form
-            .get('nationId')
-            .valueChanges.pipe(
-              startWith(this.model.nationId),
-              switchMap(nationId => this.cityService.getCities(nationId))
-            )
-            .subscribe(cities => {
-              field.templateOptions.options = cities;
-            });
-        }
-      }
-    },
-    {
-      key: 'phoneNumbers',
-      type: 'repeat',
-      fieldArray: {
-        fieldGroup: [
-          {
-            key: 'contactTypeId',
-            type: 'select',
-            templateOptions: {
-              label: 'Type',
-              options: [
-                {
-                  value: 1,
-                  label: 'Private'
-                },
-                {
-                  value: 2,
-                  label: 'Work'
-                }
-              ]
-            }
-          },
-          {
-            key: 'number',
-            type: 'input',
-            className: 'js-group',
-            templateOptions: {
-              label: 'Number'
-            }
-          }
-        ]
-      }
-    }
-  ];
+  fields: FormlyFieldConfig[] = [];
 
-  constructor(private cityService: CityService) {}
+  constructor() {}
 
   ngOnInit() {}
 

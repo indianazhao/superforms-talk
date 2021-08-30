@@ -1,0 +1,715 @@
+[
+  {
+    "type": "openFile",
+    "path": "src/app/angular-sf/formly-demo/formly-demo.component.ts"
+  },
+  {
+    "type": "goto",
+    "line": 27,
+    "column": 34
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "",
+      ""
+    ]
+  },
+  {
+    "type": "goto",
+    "line": 28,
+    "column": 1
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "",
+      "  "
+    ]
+  },
+  {
+    "type": "goto",
+    "line": 28,
+    "column": 1
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "    {",
+      "      key: 'firstname',",
+      "      type: 'input',",
+      "      templateOptions: {",
+      "        label: 'Firstname',",
+      "      }",
+      "    },"
+    ]
+  },
+  {
+    "type": "command",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "type": "wait",
+    "delay": "manual"
+  },
+
+
+
+
+
+
+  {
+    "type": "openFile",
+    "path": "src/app/angular-sf/formly-demo/formly-demo.component.ts"
+  },
+  {
+    "type": "goto",
+    "line": 34,
+    "column": 7
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "",
+      ""
+    ]
+  },
+  {
+    "type": "goto",
+    "line": 35,
+    "column": 1
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "    {",
+      "      key: 'age',",
+      "      type: 'input',",
+      "      templateOptions: {",
+      "        label: 'Age',",
+      "      },",
+      "    },"
+    ]
+  },
+  {
+    "type": "command",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "type": "wait",
+    "delay": "manual"
+  },
+
+
+
+
+
+
+  {
+    "type": "openFile",
+    "path": "src/app/angular-sf/formly-demo/formly-demo.component.ts"
+  },
+  {
+    "type": "goto",
+    "line": 40,
+    "column": 1
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "        type: 'number',",
+      ""
+    ]
+  },
+  {
+    "type": "command",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "type": "wait",
+    "delay": "manual"
+  },
+
+
+
+
+
+
+  {
+    "type": "openFile",
+    "path": "src/app/angular-sf/formly-demo/formly-demo.component.ts"
+  },
+  {
+    "type": "goto",
+    "line": 42,
+    "column": 7
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "",
+      ""
+    ]
+  },
+  {
+    "type": "goto",
+    "line": 43,
+    "column": 1
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "    {",
+      "      key: 'nationId',",
+      "      type: 'select',",
+      "      templateOptions: {",
+      "        label: 'Nation',",
+      "      },",
+      "    },"
+    ]
+  },
+  {
+    "type": "command",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "type": "wait",
+    "delay": "manual"
+  },
+
+
+
+
+
+
+  {
+    "type": "openFile",
+    "path": "src/app/angular-sf/formly-demo/formly-demo.component.ts"
+  },
+  {
+    "type": "goto",
+    "line": 47,
+    "column": 25
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "",
+      ""
+    ]
+  },
+  {
+    "type": "goto",
+    "line": 48,
+    "column": 1
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "        options: [{",
+      "          value: 1,",
+      "          label: 'Taiwan',",
+      "        }, {",
+      "          value: 2,",
+      "          label: 'Japan',",
+      "        }],"
+    ]
+  },
+  {
+    "type": "command",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "type": "wait",
+    "delay": "manual"
+  },
+
+
+
+
+
+
+  {
+    "type": "openFile",
+    "path": "src/app/angular-sf/formly-demo/formly-demo.component.ts"
+  },
+  {
+    "type": "goto",
+    "line": 59,
+    "column": 15
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "private cityService: CityService"
+    ]
+  },
+  {
+    "type": "command",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "type": "wait",
+    "delay": "manual"
+  },
+
+
+
+
+
+
+  {
+    "type": "openFile",
+    "path": "src/app/angular-sf/formly-demo/formly-demo.component.ts"
+  },
+  {
+    "type": "goto",
+    "line": 48,
+    "column": 18
+  },
+  {
+    "type": "select",
+    "line": 54,
+    "column": 11
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "this.cityService.getNations()"
+    ]
+  },
+  {
+    "type": "command",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "type": "wait",
+    "delay": "manual"
+  },
+
+
+
+
+
+
+  {
+    "type": "openFile",
+    "path": "src/app/angular-sf/formly-demo/formly-demo.component.ts"
+  },
+  {
+    "type": "goto",
+    "line": 50,
+    "column": 7
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "",
+      ""
+    ]
+  },
+  {
+    "type": "goto",
+    "line": 51,
+    "column": 1
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "    {",
+      "      key: 'cityId',",
+      "      type: 'select',",
+      "      templateOptions: {",
+      "        label: 'City',",
+      "        options: this.cityService.getCities(),",
+      "      },",
+      "    },"
+    ]
+  },
+  {
+    "type": "command",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "type": "wait",
+    "delay": "manual"
+  },
+
+
+
+
+
+
+  {
+    "type": "openFile",
+    "path": "src/app/angular-sf/formly-demo/formly-demo.component.ts"
+  },
+  {
+    "type": "goto",
+    "line": 56,
+    "column": 18
+  },
+  {
+    "type": "select",
+    "line": 56,
+    "column": 47
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "[],"
+    ]
+  },
+  {
+    "type": "command",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "type": "wait",
+    "delay": "manual"
+  },
+
+
+
+
+
+
+  {
+    "type": "openFile",
+    "path": "src/app/angular-sf/formly-demo/formly-demo.component.ts"
+  },
+  {
+    "type": "goto",
+    "line": 57,
+    "column": 9
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "",
+      ""
+    ]
+  },
+  {
+    "type": "goto",
+    "line": 58,
+    "column": 1
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "      hooks: {",
+      "        onInit: (field: FormlyFieldConfig) => {",
+      "          field.templateOptions.options = field.form.get('nationId')",
+      "            .valueChanges.pipe(",
+      "              startWith(this.model.nationId),",
+      "              switchMap(nationId => this.cityService.getCities(nationId))",
+      "            );",
+      "        }",
+      "      },"
+    ]
+  },
+  {
+    "type": "command",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "type": "wait",
+    "delay": "manual"
+  },
+
+
+
+
+
+
+  {
+    "type": "openFile",
+    "path": "src/app/angular-sf/formly-demo/formly-demo.component.ts"
+  },
+  {
+    "type": "goto",
+    "line": 57,
+    "column": 9
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "",
+      ""
+    ]
+  },
+  {
+    "type": "goto",
+    "line": 58,
+    "column": 1
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "      expressionProperties: {",
+      "        'templateOptions.disabled': model => !model.nationId,",
+      "      },"
+    ]
+  },
+  {
+    "type": "command",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "type": "wait",
+    "delay": "manual"
+  },
+
+
+
+
+
+
+  {
+    "type": "openFile",
+    "path": "src/app/angular-sf/formly-demo/formly-demo.component.ts"
+  },
+  {
+    "type": "goto",
+    "line": 60,
+    "column": 1
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "        'model.cityId': '!model.nationId ? null : model.cityId',",
+      ""
+    ]
+  },
+  {
+    "type": "command",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "type": "wait",
+    "delay": "manual"
+  },
+
+
+
+
+
+
+  {
+    "type": "openFile",
+    "path": "src/app/angular-sf/formly-demo/formly-demo.component.ts"
+  },
+  {
+    "type": "goto",
+    "line": 62,
+    "column": 1
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "      hideExpression: model => !model.nationId,",
+      ""
+    ]
+  },
+  {
+    "type": "command",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "type": "wait",
+    "delay": "manual"
+  },
+
+
+
+  {
+    "type": "openFile",
+    "path": "src/app/formly-types/ng-select.type.ts"
+  },
+  {
+    "type": "wait",
+    "delay": "manual"
+  },
+  {
+    "type": "openFile",
+    "path": "src/app/app.module.ts"
+  },
+  {
+    "type": "wait",
+    "delay": "manual"
+  },
+  {
+    "type": "openFile",
+    "path": "src/app/angular-sf/formly-demo/formly-demo.component.ts"
+  },
+  {
+    "type": "wait",
+    "delay": "manual"
+  },
+
+
+
+
+
+  {
+    "type": "openFile",
+    "path": "src/app/angular-sf/formly-demo/formly-demo.component.ts"
+  },
+  {
+    "type": "goto",
+    "line": 45,
+    "column": 14
+  },
+  {
+    "type": "select",
+    "line": 45,
+    "column": 20
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "my-autocomplete"
+    ]
+  },
+  {
+    "type": "command",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "type": "wait",
+    "delay": "manual"
+  },
+
+
+
+
+
+
+  {
+    "type": "openFile",
+    "path": "src/app/angular-sf/formly-demo/formly-demo.component.ts"
+  },
+  {
+    "type": "goto",
+    "line": 41,
+    "column": 1
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "        min: 18,",
+      ""
+    ]
+  },
+  {
+    "type": "command",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "type": "wait",
+    "delay": "manual"
+  },
+
+
+
+
+
+
+  {
+    "type": "openFile",
+    "path": "src/app/angular-sf/formly-demo/formly-demo.component.ts"
+  },
+  {
+    "type": "goto",
+    "line": 42,
+    "column": 9
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "",
+      ""
+    ]
+  },
+  {
+    "type": "goto",
+    "line": 43,
+    "column": 1
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "      validation: {",
+      "        messages: {",
+      "          min: 'Sorry, you have to be of legal age.'",
+      "        }",
+      "      },"
+    ]
+  },
+  {
+    "type": "command",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "type": "wait",
+    "delay": "manual"
+  },
+
+
+
+
+
+
+  {
+    "type": "openFile",
+    "path": "src/app/angular-sf/formly-demo/formly-demo.component.ts"
+  },
+  {
+    "type": "goto",
+    "line": 33,
+    "column": 1
+  },
+  {
+    "type": "typeText",
+    "text": [
+      "        required: true,",
+      ""
+    ]
+  },
+  {
+    "type": "command",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "type": "wait",
+    "delay": "manual"
+  },
+
+
+
+
+
+
+  {
+    "type": "openFile",
+    "path": "src/app/app.module.ts"
+  },
+  {
+    "type": "wait",
+    "delay": "manual"
+  },
+  {
+    "type": "openFile",
+    "path": "src/app/angular-sf/formly-demo/formly-demo.component.ts"
+  },
+  {
+    "type": "wait",
+    "delay": "manual"
+  }
+
+
+
+
+
+]
